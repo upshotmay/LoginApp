@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
         etuname = findViewById(R.id.etusname);
         etpwd = findViewById(R.id.etpwd);
         btn = findViewById(R.id.loginbutton);
+        register = findViewById(R.id.register);
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
